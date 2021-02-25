@@ -68,7 +68,7 @@ public class TC_LoginTest extends BaseTest {
 
         String message = login1.checkInvalidLogin(username, password);
 
-        Assert.assertEquals(message, "Invalid", "Not matched");
+        Assert.assertEquals(message, "Invalid credentials", "Not matched");
     }
 
     @Test
